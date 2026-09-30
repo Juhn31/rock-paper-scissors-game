@@ -39,7 +39,7 @@ int main() {
         std::cout << "You chose scissors." << std::endl;
     }
     else if (user == 67) {
-        std::cout << "Fuck you" << std::endl;
+        std::cout << "Get out" << std::endl;
         std::cout << "Press any key to continue";
         std::cin.ignore(1000, '\n');
         std::cin.get();
@@ -75,7 +75,7 @@ int main() {
         std::cout << "You Win!" << std::endl;
     }
 
-    std::cout << "Do you want to suffer again? (y/n): ";
+    std::cout << "Do you want to play again? (y/n): ";
 
     char answer;
 
